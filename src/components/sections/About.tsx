@@ -106,8 +106,8 @@ export default function About() {
 
               <div className="mt-8">
                 <Link
-                  href="/resume.pdf"
-                  download
+                  href="/Muhshin-Reza-Resume.pdf"
+                  download="Muhshin-Reza-Resume.pdf"
                   className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-indigo-500 to-violet-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-indigo-500/40"
                 >
                   <Download size={17} aria-hidden />

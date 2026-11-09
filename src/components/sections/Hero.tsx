@@ -16,7 +16,6 @@ import {
   FaGitAlt,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
 } from "react-icons/fa"
 
 import {
@@ -47,10 +46,9 @@ const socials = [
   { name: "GitHub", href: "https://github.com/muhshin6", icon: FaGithub },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/muhshin-reza-b2a083427/",
+    href: "https://www.linkedin.com/in/muhshin-reza-b2a083427",
     icon: FaLinkedin,
   },
-  { name: "Facebook", href: "https://www.facebook.com/", icon: FaFacebook },
 ]
 
 const Hero = () => {
@@ -119,10 +117,9 @@ const Hero = () => {
                 className="transition-transform duration-300 group-hover:translate-x-1"
               />
             </Link>
-
             <a
-              href="/resume.pdf"
-              download
+              href="/Muhshin-Reza-Resume.pdf"
+              download="Muhshin-Reza-Resume.pdf"
               className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3.5 text-sm font-semibold text-gray-800 transition-all duration-300 hover:-translate-y-1 hover:border-indigo-500 hover:text-indigo-600 dark:border-white/10 dark:bg-white/5 dark:text-gray-200 dark:hover:border-indigo-500 dark:hover:text-indigo-400"
             >
               <Download size={18} aria-hidden />
