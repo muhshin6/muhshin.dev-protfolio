@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import Navbar from "../components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
+import CopyProtection from "@/components/CopyProtection"
 
 
 const geist = Geist({
@@ -51,10 +52,11 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider>
-          <Navbar/>
+          <CopyProtection />
+          <Navbar />
           {children}
-          <Footer/>
-          </ThemeProvider>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   )

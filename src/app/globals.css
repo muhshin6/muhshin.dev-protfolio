@@ -306,3 +306,21 @@
     animation: none;
   }
 }
+/* Copy Protection */
+body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Allow form interaction */
+input,
+textarea,
+[contenteditable="true"] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Disable image dragging */
+img {
+  -webkit-user-drag: none;
+}
