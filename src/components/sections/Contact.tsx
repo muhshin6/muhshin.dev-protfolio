@@ -159,8 +159,8 @@ const Contact = () => {
               </h3>
 
               <p className="mt-5 max-w-sm leading-7 text-gray-600 dark:text-gray-400">
-                Whether it's a new website, collaboration, or just a
-                conversation, I'd love to hear from you.
+                Whether it&apos;s a new website, collaboration, or just a
+                conversation, I&apos;d love to hear from you.
               </p>
             </div>
 
@@ -169,7 +169,7 @@ const Contact = () => {
                 href="mailto:imuhshin666@gmail.com?subject=Project%20Inquiry"
                 className="group inline-flex w-full items-center justify-between rounded-xl bg-linear-to-r from-indigo-600 to-violet-600 px-6 py-5 font-semibold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-500/30"
               >
-                Let's Connect
+                Let&apos;s Connect
                 <ArrowUpRight
                   size={22}
                   aria-hidden

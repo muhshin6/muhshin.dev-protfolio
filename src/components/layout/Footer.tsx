@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowUpRight, Heart, ArrowUp } from "lucide-react"
+import { ArrowUpRight, ArrowUp } from "lucide-react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const footerLinks = [
@@ -87,11 +87,11 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-sm font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
 
             <p className="mt-6 max-w-xs text-sm leading-7 text-gray-600 dark:text-gray-400">
-              Have an exciting project or an opportunity? Let's create
+              Have an exciting project or an opportunity? Let&apos;s create
               something amazing together.
             </p>
 
