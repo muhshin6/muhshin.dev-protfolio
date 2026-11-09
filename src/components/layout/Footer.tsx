@@ -66,33 +66,32 @@ export default function Footer() {
               Quick Links
             </h3>
 
-            <ul className="mt-6 space-y-4">
+            <div className="mt-6 grid grid-cols-2 gap-y-1.5">
               {footerLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="group inline-flex items-center gap-2 text-sm text-gray-600 transition-colors hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400"
-                  >
-                    {link.name}
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="group inline-flex items-center gap-2 text-sm text-gray-600 transition-colors hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400"
+                >
+                  {link.name}
 
-                    <ArrowUpRight
-                      size={14}
-                      className="opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100"
-                    />
-                  </a>
-                </li>
+                  <ArrowUpRight
+                    size={14}
+                    className="opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100"
+                  />
+                </a>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Contact */}
           <div>
             <h3 className="text-sm font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
-              Let&apos;s Connect
+              Let's Connect
             </h3>
 
             <p className="mt-6 max-w-xs text-sm leading-7 text-gray-600 dark:text-gray-400">
-              Have an exciting project or an opportunity? Let&apos;s create
+              Have an exciting project or an opportunity? Let's create
               something amazing together.
             </p>
 
@@ -113,9 +112,7 @@ export default function Footer() {
           </p>
 
           <p className="flex items-center gap-1.5 text-sm text-gray-500">
-            Designed & Built with
-            <Heart size={15} className="fill-red-500 text-red-500" />
-            by
+            Designed & Built with by
             <span className="font-semibold text-gray-800 dark:text-gray-200">
               Muhshin
             </span>
