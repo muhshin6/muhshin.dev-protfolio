@@ -118,7 +118,7 @@ const Hero = () => {
               />
             </Link>
             <a
-              href="/Muhshin-Reza-Resume.pdf"
+              href="/Muhshin_Reza_Resume.pdf"
               download="Muhshin-Reza-Resume.pdf"
               className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3.5 text-sm font-semibold text-gray-800 transition-all duration-300 hover:-translate-y-1 hover:border-indigo-500 hover:text-indigo-600 dark:border-white/10 dark:bg-white/5 dark:text-gray-200 dark:hover:border-indigo-500 dark:hover:text-indigo-400"
             >
